@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="./css/Main-Menu.css">
+    <link rel="stylesheet" href="./css/dropdown.css">
+    <link rel="stylesheet" href="./css/app-cont.css">    
+	<link rel="stylesheet" href="./css/pageani.css">
+	<link rel="stylesheet" href="./css/slidemenu.css">
+	<link rel="stylesheet" href="./css/buttons.css">
+</head>
+<body>
+<script src="./javascript/menu.js"></script>
+    <!-- Home page -->
+<div class="m-scene" id="main">
+  <div class="m-header scene_element scene_element--fadein">
+<center>
+<div class="top-bar-css"></div>
+<div class="category-bar-css">
+<div align="left">
+<div id="o-wrapper" class="o-wrapper">
+    <button id="c-button--slide-left" class="c-button">Menu</button>
+  </div>
+    
+
+  <!-- other content in here -->
+
+</div><!-- /o-wrapper -->
+
+<!-- menus here -->
+
+<div id="c-mask" class="c-mask"></div><!-- /c-mask -->
+<nav id="c-menu--slide-left" class="c-menu c-menu--slide-left">
+  <button class="c-menu__close">Close Menu</button>
+<div class="textstyle">
+<div class="menu-container">
+  <ul class="c-menu__items">
+    <li class="c-menu__item"><a onmousedown="return false;" href="./Utilities/Utilities.html" class="c-menu__link">Utilities</a></li>
+    <li class="c-menu__item"><a onmousedown="return false;" href="./Developer-Tools/Developer-Tools.html" class="c-menu__link">Developer Tools</a></li>
+    <li class="c-menu__item"><a onmousedown="return false;" href="./Graphics/Graphics.html" class="c-menu__link">Graphics</a></li>
+    <li class="c-menu__item"><a onmousedown="return false;" href="./Internet/Internet.html" class="c-menu__link">Internet</a></li>
+    <li class="c-menu__item"><a onmousedown="return false;" href="./System/System.html" class="c-menu__link">System</a></li>
+    <li class="c-menu__item"><a onmousedown="return false;" href="./Office/Office.html" class="c-menu__link">Office</a></li>
+    <li class="c-menu__item"><a onmousedown="return false;" href="./Sound-Video/Sound-Video.html" class="c-menu__link">Sound & Video</a></li>
+    <li class="c-menu__item"><a onmousedown="return false;" href="./Themes-Tweaks/Themes-Tweaks.html" class="c-menu__link">Themes & Tweaks</a></li>
+    <li class="c-menu__item"><a onmousedown="return false;" href="forum.html" class="c-menu__link">Forum</a></li>
+  </ul>
+</nav><!-- /c-menu slide-left -->
+    </div>
+    <script>
+        var slideLeft = new Menu({
+  wrapper: '#o-wrapper',
+  type: 'slide-left',
+  menuOpenerClass: '.c-button',
+  maskId: '#c-mask'
+});
+
+var slideLeftBtn = document.querySelector('#c-button--slide-left');
+
+slideLeftBtn.addEventListener('click', function(e) {
+  e.preventDefault;
+  slideLeft.open();
+});
+    </script>
+  </div>
+</center>
+<div class="bg-css">
+<center>
+<!div class="logo-css">
+<img src="./images/logos/linux-store-logo.png" onmousedown="return false;" width=500" height="200"></a>
+</dev>
+<div class="applist-title-css">New Applications</div>
+<div class="Appmenu-css">
+<div class="app-box-css">
+<div class="image-div-css"><img src="./images/icons/gravit-icon.png" onmousedown="return false;" width="90%" height="90%"></a></div>
+<div class="app-title-css">Gravit</div>
+</div>
+<div class="app-box-css">
+<div class="image-div-css"><img src="./images/icons/g-record-icon.png" onmousedown="return false;" width="90%" height="90%"></a></div>
+<div class="app-title-css">G Record</div>
+</div>
+<div class="app-box-css">
+<div class="image-div-css"><img src="./images/icons/kdevelop-icon.png" onmousedown="return false;" width="90%" height="90%"></a></div>
+<div class="app-title-css">Kdevelop</div>
+</div>
+<div class="app-box-css">
+<div class="image-div-css"><img src="./images/icons/godat-icon.png" onmousedown="return false;" width="90%" height="90%"></a></div>
+<div class="app-title-css">Godat</div>
+</div>
+<div class="app-box-css">
+<div class="image-div-css"><img src="./images/icons/ring-icon.png" onmousedown="return false;" width="90%" height="90%"></a></div>
+<div class="app-title-css">Ring</div>
+</div>
+<div class="app-box-css">
+<div class="image-div-css"><img src="./images/icons/messenger-icon.png" onmousedown="return false;" width="90%" height="90%"></a></div>
+<div class="app-title-css">Messenger</div>
+</div>
+<div class="app-box-css">
+<div class="image-div-css"><img src="./images/icons/sunvox-icon.png" onmousedown="return false;" width="90%" height="90%"></a></div>
+<div class="app-title-css">Sunvox</div>
+</div>
+<div class="Appmenu-css">
+<div class="app-box-css">
+<div class="image-div-css"><img src="./images/icons/g-twitch-icon.png" onmousedown="return false;" width="90%" height="90%"></a></div>
+<div class="app-title-css">G Twitch</div>
+</div>
+<div class="app-box-css">
+<div class="image-div-css"><img src="./images/icons/google+-icon.png" onmousedown="return false;" width="90%" height="90%"></a></div>
+<div class="app-title-css">Google+</div>
+</div>
+<div class="app-box-css">
+<div class="image-div-css"><img src="./images/icons/encryptpad-icon.png" onmousedown="return false;" width="90%" height="90%"></a></div>
+<div class="app-title-css">Encryptpad</div>
+</div>
+<div class="app-box-css">
+<div class="image-div-css"><img src="./images/icons/clipcutter-icon.png" onmousedown="return false;" width="90%" height="90%"></a></div>
+<div class="app-title-css">ClipCutter</div>
+</div>
+<div class="app-box-css">
+<div class="image-div-css"><img src="./images/icons/fp-scanner-icon.png" onmousedown="return false;" width="90%" height="90%"></a></div>
+<div class="app-title-css">Fp Scanner</div>
+</div>
+<div class="app-box-css">
+<div class="image-div-css"><img src="./images/icons/discord-icon.png" onmousedown="return false;" width="90%" height="90%"></a></div>
+<div class="app-title-css">Discord</div>
+</div>
+<div class="app-box-css">
+<div class="image-div-css"><img src="./images/icons/upgrade-utility-icon.png" onmousedown="return false;" width="90%" height="90%"></a></div>
+<div class="app-title-css">Upgrade Utility</div>                               
+  </div>
+</div>
+<iframe src="preload.html" width="1" height="1" frameborder="0" scrolling="no"></iframe>                                    
+</body>
+</html>
