@@ -7,3 +7,4 @@
 ### Collaborators
  * Ankit Pati
  * Nathaniel Clark
+ * Dominic Dwyer
