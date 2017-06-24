@@ -341,14 +341,27 @@ body {
   -o-transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 10ms;
   transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 10ms;
 }
+.slideshow {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: auto;
+  overflow: hidden;
+  border: none;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  color: black;
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
 .slideshow-cont {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   width: 640px;
-  height: 440px;
+  height: 480px;
   margin: auto;
-  padding: auto;
+  padding: 6px;
   overflow: hidden;
   border: none;
   font: normal 16px/1 "Times New Roman", Times, serif;
